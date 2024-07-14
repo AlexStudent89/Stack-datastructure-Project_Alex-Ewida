@@ -74,13 +74,13 @@ public class StackLinkedList {
         stackLinkedList.push(3);
         stackLinkedList.isEmpty();
 
-        // Test pop method
+        // Test the pop method
         stackLinkedList.pop();
 
-        // Test peek method
+        // Test the peek method
         System.out.println("Top of stack: " + stackLinkedList.peek());
 
-        // Test delete stack method
+        // Test the delete stack method
         stackLinkedList.deleteStack();
     }
 }

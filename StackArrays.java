@@ -72,7 +72,7 @@ public class StackArrays {
         System.out.println("The stack is successfully deleted");
     }
 
-    // Use the stack data structure to check whether a word is a palindrome or not
+    // Using the stack data structure to check whether a word is a palindrome or not
     public static boolean isPalindrome(String word) {
         int size = word.length();
         StackArrays stack = new StackArrays(size);
@@ -95,16 +95,16 @@ public class StackArrays {
         stackArrays.isEmpty();
         stackArrays.isFull();
 
-        // Test pop method
+        // Test the pop method
         stackArrays.pop();
 
-        // Test peek method
+        // Test the peek method
         System.out.println("Top of stack: " + stackArrays.peek());
 
-        // Test delete stack method
+        // Test the delete stack method
         stackArrays.deleteStack();
 
-        // Test palindrome check
+        // Test the palindrome check
         String word = "racecar";
         System.out.println("Is \"" + word + "\" a palindrome? " + StackArrays.isPalindrome(word));
     }
